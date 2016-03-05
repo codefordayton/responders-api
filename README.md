@@ -3,11 +3,10 @@ API for disaster recovery first responders
 
 # Development
 
-Set up an initial python virtual environment:
+Set up an initial python virtual environment (assuming Docker and VirtualEnv installed):
 
 ```
-virtualenv .env
+bash init-dev.sh
 source .env/bin/activate
-pip install -r requirements.txt
 python manage.py runserver
 ```
