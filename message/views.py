@@ -47,6 +47,10 @@ class MessageUsers(APIView):
     def post(self, request, zip, radius, format=None):
         """Send a message to all users that would be messaged for a zip / radius
 
+        Message must be of the format:
+
+        { "message": "test" }
+
         :param request:
         :param zip:
         :param radius:
@@ -62,8 +66,11 @@ class MessageUsers(APIView):
         logger.debug('received a message of %s' % message)
 
         for user in extended_users:
-            logger.debug('attempting to send message')
-            user.send_message_to(message)
+            try:
+                logger.debug('attempting to send message')
+                user.send_message_to(message)
+            except:
+                logger.exception('unable to send message to user: %s' % user.user.id)
 
         return Response(status.HTTP_202_ACCEPTED)
 
