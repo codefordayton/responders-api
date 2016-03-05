@@ -15,6 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
+from django.contrib.auth.forms import UserCreationForm
+from django.views.generic.edit import CreateView
 
 from geocode.views import ZipGeocodeViewset
 
@@ -25,6 +27,11 @@ router.register(r'zip', ZipGeocodeViewset)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
+    url('^register/', CreateView.as_view(
+            template_name='register.html',
+            form_class=UserCreationForm,
+            success_url='/'
+    )),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^admin/', admin.site.urls),
 ]

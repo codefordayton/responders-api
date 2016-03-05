@@ -1,0 +1,21 @@
+{% load rest_framework %}
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+
+<h1>Registration</h1>
+
+<!-- this post helped me get the registration form started
+http://www.obeythetestinggoat.com/using-the-built-in-views-and-forms-for-new-user-registration-in-django.html
+-->
+
+<form  method="post" novalidate>
+    {% csrf_token %}
+    {{ form }}
+    <button type="submit" class="btn btn-default">Register</button>
+</form>
+
+</body></html>
