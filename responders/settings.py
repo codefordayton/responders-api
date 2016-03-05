@@ -26,8 +26,8 @@ SECRET_KEY = 'u28*k34pf@l(!nb9iwvyis=nq0^up!9z&%0avfa!a_k+y$h5+f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# This is an incredibly naive way to target docker-machine on linux, but as long as you have started / stopped machine
-# you should be good to go
+# This is an incredibly naive way to target docker-machine vm, but as long as you aren't using a custom docker-machine
+# you should be assigned this IP
 DOCKER_HOST = 'localhost'
 if system() != 'Linux':
     DOCKER_HOST = '192.168.99.100'
