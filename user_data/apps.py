@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LicensesConfig(AppConfig):
-    name = 'licenses'
+class UserDataConfig(AppConfig):
+    name = 'user_data'
     verbose_name = 'User Licenses and Contact Information'

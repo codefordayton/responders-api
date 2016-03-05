@@ -1,5 +1,5 @@
 from django.contrib import admin
-from licenses.models import ExtendedUserData, License, Specialty
+from user_data.models import ExtendedUserData, License, Specialty
 
 
 class ExtendedUserDataAdmin(admin.ModelAdmin):

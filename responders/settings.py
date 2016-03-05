@@ -39,7 +39,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'geocode.apps.GeocodeConfig',
-    'licenses.apps.LicensesConfig',
+    'user_data.apps.UserDataConfig',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
