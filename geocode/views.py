@@ -2,7 +2,7 @@ from geocode.models import ZipGeocode
 from rest_framework import viewsets
 from responders.permissions import IsAccountAdminOrReadOnly
 from rest_framework.pagination import PageNumberPagination
-from serializers import ZipCodeSerializer
+from geocode.serializers import ZipCodeSerializer
 
 
 class SmallResultsSetPagination(PageNumberPagination):

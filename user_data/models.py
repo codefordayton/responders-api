@@ -1,5 +1,6 @@
 from django.contrib.gis.db import models
 from django.contrib.auth.models import User
+from user_data import sms
 
 
 class Specialty(models.Model):
@@ -37,6 +38,10 @@ class ExtendedUserData(models.Model):
     phone = models.TextField(null=True, blank=True)
     twitter = models.TextField(null=True, blank=True)
     location = models.PointField()
+
+    def send_message_to(msg):
+        print(sms.send_message_to(self.phone, msg))
+
 
     class Meta:
         verbose_name_plural = "extended user data"
