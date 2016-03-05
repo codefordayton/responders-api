@@ -1,7 +1,7 @@
 {
   "primary_array": [
     {
-      "ID": 0000001,
+      "ID": 1,
       "name": "Dr. Jacob Smith",
       "residence": "Dublin, OH 44118",
       "practice": "No address information on file.",
@@ -16,7 +16,7 @@
         "UNSPECIFIED"]
     },
     {
-      "ID": 0000002,
+      "ID": 2,
       "name": "Dr. Zach Cambell",
       "residence": "Dublin, OH 43016",
       "practice": "No address information on file.",
@@ -33,7 +33,7 @@
         "GENERAL SURGERY"]
     },
     {
-      "ID": 0000003,
+      "ID": 3,
       "name": "Dr. Jack Odem",
       "residence": "Aurora, OH 44202",
       "practice": "1243 N. West St. Ravenna, OH 44266",
@@ -49,7 +49,7 @@
         "FACIAL PLASTIC SURGERY"]
     },
     {
-      "ID": 0000004,
+      "ID": 4,
       "name": "Dr. Jack Odem",
       "residence": "Aurora, OH 44202",
       "practice": "1243 N. West St. Ravenna, OH 44266",
@@ -65,7 +65,7 @@
         "FACIAL PLASTIC SURGERY"]
     },
     {
-      "ID": 0000005,
+      "ID": 5,
       "name": "Dr. Abigale Richardson",
       "residence": "Florence, SC 29501",
       "practice": "No address information on file.",
@@ -82,7 +82,7 @@
         "THORACIC SURGERY"]
     },
     {
-      "ID": 0000006,
+      "ID": 6,
       "name": "Dr. Abigale Richardson",
       "residence": "Florence, SC 29501",
       "practice": "No address information on file.",
@@ -99,7 +99,7 @@
         "THORACIC SURGERY"]
     },
     {
-      "ID": 0000007,
+      "ID": 7,
       "name": "Dr. Alex Frasier",
       "residence": "Westlake Village, CA 91361",
       "practice": "9473 Lyons Rd., Tarzana, CA 91356",
@@ -116,7 +116,7 @@
         "OBSTETRICS & GYNECOLOGY"]
     },
     {
-      "ID": 0000008,
+      "ID": 8,
       "name": "Dr. Alex Frasier",
       "residence": "Westlake Village, CA 91361",
       "practice": "9473 Lyons Rd., Tarzana, CA 91356",
@@ -133,7 +133,7 @@
         "OBSTETRICS & GYNECOLOGY"]
     },
     {
-      "ID": 0000009,
+      "ID": 9,
       "name": "Dr. Alex Frasier",
       "residence": "Westlake Village, CA 91361",
       "practice": "9473 Lyons Rd., Tarzana, CA 91356",
@@ -150,7 +150,7 @@
         "OBSTETRICS & GYNECOLOGY"]
     },
     {
-      "ID": 0000010,
+      "ID": 10,
       "name": "Dr. Ayla Glass",
       "residence": "Hazard, KY 41701",
       "practice": "No address information on file.",
@@ -165,7 +165,7 @@
         "UNSPECIFIED"]
     },
     {
-      "ID": 0000011,
+      "ID": 11,
       "name": "Dr. Adam Zink",
       "residence": "Munster, IN 46321",
       "practice": "387 E 9th St. Merrillville, IN 46410",
@@ -186,7 +186,7 @@
         "ANESTHESIOLOGY"]
     },
     {
-      "ID": 0000012,
+      "ID": 12,
       "name": "Dr. Adam Zink",
       "residence": "Munster, IN 46321",
       "practice": "387 E 9th St. Merrillville, IN 46410",
@@ -207,7 +207,7 @@
         "ANESTHESIOLOGY"]
     },
     {
-      "ID": 0000013,
+      "ID": 13,
       "name": "Dr. Cordel Gilbert",
       "residence": "Mineola, NY 11501",
       "practice": "No address information on file.",
@@ -228,7 +228,7 @@
         "INTERNAL MEDICINE"]
     },
     {
-      "ID": 0000014,
+      "ID": 14,
       "name": "Dr. Cordel Gilbert",
       "residence": "Mineola, NY 11501",
       "practice": "No address information on file.",
@@ -249,7 +249,7 @@
         "INTERNAL MEDICINE"]
     },
     {
-      "ID": 0000015,
+      "ID": 15,
       "name": "Dr. Charles Winchester",
       "residence": "Cincinnati, OH 45208",
       "practice": "9847 Byers St. Cincinnati, OH 45219",
