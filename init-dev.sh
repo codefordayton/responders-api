@@ -17,4 +17,4 @@ virtualenv .env
 .env/bin/pip install -r requirements.txt
 
 ${SUDO} docker-compose up -d
-~                                
+
