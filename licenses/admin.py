@@ -1,3 +1,18 @@
 from django.contrib import admin
+from licenses.models import ExtendedUserData, License, Specialty
 
-# Register your models here.
+
+class ExtendedUserDataAdmin(admin.ModelAdmin):
+    pass
+
+
+class LicenseAdmin(admin.ModelAdmin):
+    pass
+
+
+class SpecialtyAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(ExtendedUserData, ExtendedUserDataAdmin)
+admin.site.register(License, LicenseAdmin)
+admin.site.register(Specialty, SpecialtyAdmin)

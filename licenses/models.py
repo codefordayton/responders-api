@@ -5,6 +5,9 @@ from django.contrib.auth.models import User
 class Specialty(models.Model):
     name = models.TextField(null=False, blank=False)
 
+    class Meta:
+        verbose_name_plural = "specialties"
+
 
 class License(models.Model):
     DOC = 'DOC'
@@ -35,4 +38,5 @@ class ExtendedUserData(models.Model):
     twitter = models.TextField(null=True, blank=True)
     location = models.PointField()
 
-
+    class Meta:
+        verbose_name_plural = "extended user data"

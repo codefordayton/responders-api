@@ -38,8 +38,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'geocode',
-    'licenses',
+    'geocode.apps.GeocodeConfig',
+    'licenses.apps.LicensesConfig',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
 ]
 
 MIDDLEWARE_CLASSES = [
