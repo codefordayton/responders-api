@@ -1,0 +1,267 @@
+{
+  "primary_array": [
+    {
+      "ID": 0000001,
+      "name": "Dr. Jacob Smith",
+      "residence": "Dublin, OH 44118",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.044372",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "12/21/1979",
+        "expiration_date": "12/31/1984",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "UNSPECIFIED"]
+    },
+    {
+      "ID": 0000002,
+      "name": "Dr. Zach Cambell",
+      "residence": "Dublin, OH 43016",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.082982",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "08/01/2003",
+        "expiration_date": "07/01/2009",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "THORACIC SURGERY",
+        "CARDIOTHORACIC SURGERY",
+        "GENERAL SURGERY"]
+    },
+    {
+      "ID": 0000003,
+      "name": "Dr. Jack Odem",
+      "residence": "Aurora, OH 44202",
+      "practice": "1243 N. West St. Ravenna, OH 44266",
+      "credentials": [
+        {"ID": "35.058622",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "08/16/1989",
+        "expiration_date": "07/01/2017",
+        "status": "ACTIVE"
+        }],
+      "specializations": [
+        "OTOLARYNGOLOGY",
+        "FACIAL PLASTIC SURGERY"]
+    },
+    {
+      "ID": 0000004,
+      "name": "Dr. Jack Odem",
+      "residence": "Aurora, OH 44202",
+      "practice": "1243 N. West St. Ravenna, OH 44266",
+      "credentials": [
+        {"ID": "35.058622",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "08/16/1989",
+        "expiration_date": "07/01/2017",
+        "status": "ACTIVE"
+        }],
+      "specializations": [
+        "OTOLARYNGOLOGY",
+        "FACIAL PLASTIC SURGERY"]
+    },
+    {
+      "ID": 0000005,
+      "name": "Dr. Abigale Richardson",
+      "residence": "Florence, SC 29501",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.052929",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "10/31/1985",
+        "expiration_date": "07/01/2005",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "CARDIOVASCULAR SURGERY",
+        "GENERAL SURGERY",
+        "THORACIC SURGERY"]
+    },
+    {
+      "ID": 0000006,
+      "name": "Dr. Abigale Richardson",
+      "residence": "Florence, SC 29501",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.052929",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "10/31/1985",
+        "expiration_date": "07/01/2005",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "CARDIOVASCULAR SURGERY",
+        "GENERAL SURGERY",
+        "THORACIC SURGERY"]
+    },
+    {
+      "ID": 0000007,
+      "name": "Dr. Alex Frasier",
+      "residence": "Westlake Village, CA 91361",
+      "practice": "9473 Lyons Rd., Tarzana, CA 91356",
+      "credentials": [
+        {"ID": "35.031467",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "03/31/1969",
+        "expiration_date": "07/01/2015",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "OBSTETRICS & GYNECOLOGY",
+        "GYNECOLOGY",
+        "OBSTETRICS & GYNECOLOGY"]
+    },
+    {
+      "ID": 0000008,
+      "name": "Dr. Alex Frasier",
+      "residence": "Westlake Village, CA 91361",
+      "practice": "9473 Lyons Rd., Tarzana, CA 91356",
+      "credentials": [
+        {"ID": "35.031467",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "03/31/1969",
+        "expiration_date": "07/01/2015",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "OBSTETRICS & GYNECOLOGY",
+        "GYNECOLOGY",
+        "OBSTETRICS & GYNECOLOGY"]
+    },
+    {
+      "ID": 0000009,
+      "name": "Dr. Alex Frasier",
+      "residence": "Westlake Village, CA 91361",
+      "practice": "9473 Lyons Rd., Tarzana, CA 91356",
+      "credentials": [
+        {"ID": "35.031467",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "03/31/1969",
+        "expiration_date": "07/01/2015",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "OBSTETRICS & GYNECOLOGY",
+        "GYNECOLOGY",
+        "OBSTETRICS & GYNECOLOGY"]
+    },
+    {
+      "ID": 0000010,
+      "name": "Dr. Ayla Glass",
+      "residence": "Hazard, KY 41701",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.036787",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "02/15/1974",
+        "expiration_date": "12/31/1979",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "UNSPECIFIED"]
+    },
+    {
+      "ID": 0000011,
+      "name": "Dr. Adam Zink",
+      "residence": "Munster, IN 46321",
+      "practice": "387 E 9th St. Merrillville, IN 46410",
+      "credentials": [
+        {"ID": "35.079163",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "03/16/2001",
+        "expiration_date": "07/01/2013",
+        "status": "INACTIVE"},
+        {"ID": "57.002709",
+        "license_type": "MD Training Certificate",
+        "initial_licensure_date": "08/28/2000",
+        "expiration_date": "06/30/2001",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "PAIN MANAGEMENT (ANESTHESIOLOGY)",
+        "ANESTHESIOLOGY"]
+    },
+    {
+      "ID": 0000012,
+      "name": "Dr. Adam Zink",
+      "residence": "Munster, IN 46321",
+      "practice": "387 E 9th St. Merrillville, IN 46410",
+      "credentials": [
+        {"ID": "35.079163",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "03/16/2001",
+        "expiration_date": "07/01/2013",
+        "status": "INACTIVE"},
+        {"ID": "57.002709",
+        "license_type": "MD Training Certificate",
+        "initial_licensure_date": "08/28/2000",
+        "expiration_date": "06/30/2001",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "PAIN MANAGEMENT (ANESTHESIOLOGY)",
+        "ANESTHESIOLOGY"]
+    },
+    {
+      "ID": 0000013,
+      "name": "Dr. Cordel Gilbert",
+      "residence": "Mineola, NY 11501",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.084924",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "08/13/2004",
+        "expiration_date": "07/01/2009",
+        "status": "INACTIVE"},
+        {"ID": "57.006390",
+        "license_type": "MD Training Certificate",
+        "initial_licensure_date": "09/04/2002",
+        "expiration_date": "06/30/2005",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "PULMONARY CRITICAL CARE MEDICINE",
+        "INTERNAL MEDICINE"]
+    },
+    {
+      "ID": 0000014,
+      "name": "Dr. Cordel Gilbert",
+      "residence": "Mineola, NY 11501",
+      "practice": "No address information on file.",
+      "credentials": [
+        {"ID": "35.084924",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "08/13/2004",
+        "expiration_date": "07/01/2009",
+        "status": "INACTIVE"},
+        {"ID": "57.006390",
+        "license_type": "MD Training Certificate",
+        "initial_licensure_date": "09/04/2002",
+        "expiration_date": "06/30/2005",
+        "status": "INACTIVE"
+        }],
+      "specializations": [
+        "PULMONARY CRITICAL CARE MEDICINE",
+        "INTERNAL MEDICINE"]
+    },
+    {
+      "ID": 0000015,
+      "name": "Dr. Charles Winchester",
+      "residence": "Cincinnati, OH 45208",
+      "practice": "9847 Byers St. Cincinnati, OH 45219",
+      "credentials": [
+        {"ID": "35.029506",
+        "license_type": "Doctor of Medicine",
+        "initial_licensure_date": "10/04/1966",
+        "expiration_date": "07/01/2017",
+        "status": "ACTIVE"
+        }],
+      "specializations": [
+        "CARDIOVASCULAR DISEASE"]
+    }
+  ]
+}
