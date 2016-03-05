@@ -1,6 +1,7 @@
 import logging
 
 from django.contrib.gis.geos import GEOSGeometry
+from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import authentication, permissions
@@ -31,10 +32,17 @@ class MessageUsers(APIView):
         :return:
         """
 
-        users = self._get_users(zip, radius)
+        extended_users = self._get_users(zip, radius)
+
+        users = []
+        for user in extended_users:
+            user_info = {}
+            user_info['name'] = user.user.first_name + ' ' + user.user.last_name
+            user_info['zip'] = user.zip_code
+            user_info['location'] = user.location.wkt
+            users.append(user_info)
 
         return Response(users)
-
 
     def post(self, request, zip, radius, format=None):
         """Send a message to all users that would be messaged for a zip / radius
@@ -46,11 +54,21 @@ class MessageUsers(APIView):
         :return:
         """
 
-        users = self._get_users(zip, radius)
+        message = request.data['message']
+        print request.data
 
-        return Response(users)
+        extended_users = self._get_users(zip, radius)
 
-    def _get_users(self, zip, radius):
+        logger.debug('received a message of %s' % message)
+
+        for user in extended_users:
+            logger.debug('attempting to send message')
+            user.send_message_to(message)
+
+        return Response(status.HTTP_202_ACCEPTED)
+
+    @staticmethod
+    def _get_users(zip, radius):
         """Identify users for a zip radius
 
         :param zip:
@@ -64,9 +82,9 @@ class MessageUsers(APIView):
         geom = GEOSGeometry('POINT(%s %s)' % (zipcode.longitude, zipcode.latitude))
         buffered_geom = geom.buffer(radius)
 
-        users = ExtendedUserData.objects.filter(location__intersects=buffered_geom)
+        extended_users = ExtendedUserData.objects.filter(location__intersects=buffered_geom)
 
-        return users
+        return extended_users
 
 
 class MessageUsersJson(APIView):
