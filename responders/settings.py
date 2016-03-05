@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
+from platform import system
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,6 +25,12 @@ SECRET_KEY = 'u28*k34pf@l(!nb9iwvyis=nq0^up!9z&%0avfa!a_k+y$h5+f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
+# This is an incredibly naive way to target docker-machine on linux, but as long as you have started / stopped machine
+# you should be good to go
+DOCKER_HOST = 'localhost'
+if system() != 'Linux':
+    DOCKER_HOST = '192.168.99.100'
 
 ALLOWED_HOSTS = []
 
@@ -77,11 +84,12 @@ WSGI_APPLICATION = 'responders.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+         'ENGINE': 'django.contrib.gis.db.backends.postgis',
+         'NAME': 'postgres',
+         'HOST': DOCKER_HOST,
+         'USER': 'postgres',
+    },
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
