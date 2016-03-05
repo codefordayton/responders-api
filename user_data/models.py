@@ -39,9 +39,15 @@ class ExtendedUserData(models.Model):
     twitter = models.TextField(null=True, blank=True)
     location = models.PointField()
 
-    def send_message_to(msg):
+    def send_message_to(self, msg):
         print(sms.send_message_to(self.phone, msg))
 
+    @classmethod
+    def find_license(self, user):
+        # Look up user's license from license API server,
+        # create a new ExtendedUserData instance,
+        # associate it to `user`
+        pass
 
     class Meta:
         verbose_name_plural = "extended user data"

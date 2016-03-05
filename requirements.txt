@@ -2,3 +2,4 @@ django>=1.9.4,<1.10
 djangorestframework>=3.3.2,<3.4
 psycopg2>=2.6.1,<2.7
 PyYAML>=3.11,<4
+twilio==5.4.0
