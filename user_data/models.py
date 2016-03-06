@@ -9,6 +9,28 @@ class Specialty(models.Model):
     class Meta:
         verbose_name_plural = "specialties"
 
+def assign_license(user, id):
+    responce = requests.get('http://localhost:3000/primary_array')
+    data = responce.json()
+    (person, license_data) = lookup_license(id, data)
+    license = License(user=user,
+        license_number=,
+        license_name=,
+
+    )
+    license.save()
+    ext_data = ExtendedUserData(user=user,
+
+    )
+    ext_data.save()
+    pass
+
+def lookup_license(id, data):
+    for person in data:
+        for license_data in credentials
+            if license_data['ID'] == id:
+                return (person, license_data)
+    return(None, None)
 
 class License(models.Model):
     DOC = 'DOC'
@@ -42,12 +64,7 @@ class ExtendedUserData(models.Model):
     def send_message_to(self, msg):
         print(sms.send_message_to(self.phone, msg))
 
-    @classmethod
-    def find_license(self, user):
-        # Look up user's license from license API server,
-        # create a new ExtendedUserData instance,
-        # associate it to `user`
-        pass
+
 
     class Meta:
         verbose_name_plural = "extended user data"
